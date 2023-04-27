@@ -17,6 +17,7 @@ board_keys = ["7", "8", "9", "4", "5", "6", "1", "2", "3"]
 
 
 def display_board(game_board):
+    print('\n')
     print("        |       |")
     print("    " + game_board[0] + "   |   " + game_board[1] + "   |   " + game_board[2])
     print("  ______|_______|______")
